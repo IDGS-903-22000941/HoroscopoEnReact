@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './App.css'
-import HoroscopoForm from './components/HoroscopoForm'
-import HoroscopoResult from './components/HoroscopoResult'
+import HoroscopoForm from './components/HoroscopoForm.jsx'
+import HoroscopoResult from './components/HoroscopoResult.jsx'
 
 function App() {
   const [signo, setSigno] = useState(null)
